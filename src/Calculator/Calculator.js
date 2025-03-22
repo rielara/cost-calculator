@@ -144,7 +144,6 @@ const CostCalculator = () => {
       setDeposit(0);
     } else {
       setError("");
-      const noticePeriodMonths = 2;
       let baseDeposit;
 
       switch (paymentFrequency) {
